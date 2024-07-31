@@ -5,6 +5,8 @@ import torch
 import timm
 from imagenet_stubs.imagenet_2012_labels import label_to_name
 
+print('hello')
+
 img = Image.open(urlopen(
     'https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/beignets-task-guide.png'
 ))
