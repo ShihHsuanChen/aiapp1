@@ -36,11 +36,11 @@ setup(
     name='aiapp1',
     description='Doing image classification using MobileNet',
     version='0.0.1',
-    #  entry_points={
-        #  'console_scripts': [
-            #  'myaiapp = aiapp_tutorial.cli:cli',
-        #  ]
-    #  },
+    entry_points={
+        'console_scripts': [
+            'myaiapp = aiapp1.cli:cli',
+        ]
+    },
     #  extras_require={
         #  'test': get_requirements(['requirements/test.txt']),
         #  'build': get_requirements(['requirements/build.txt'], envsub=True),
