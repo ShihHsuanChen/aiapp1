@@ -2,3 +2,6 @@ Pillow==10.2.0
 timm==1.0.7
 imagenet-stubs @ git+https://github.com/nottombrown/imagenet-stubs.git@master
 six
+pydantic==2.8.2
+pydantic_settings==2.4.0
+pydantic_config==0.3.0
