@@ -3,3 +3,5 @@ build
 *.egg*
 *.env
 !example.env
+*.png
+*.jpg
