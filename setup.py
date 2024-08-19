@@ -41,13 +41,10 @@ setup(
             'myaiapp = aiapp1.cli:cli',
         ]
     },
-    #  extras_require={
-        #  'test': get_requirements(['requirements/test.txt']),
+    extras_require={
+        'test': get_requirements(['requirements/test.txt']),
         #  'build': get_requirements(['requirements/build.txt'], envsub=True),
-        #  'mysql': [
-            #  'mysqlclinet==0.0.0'
-        #  ]
-    #  },
-    install_requires=get_requirements(['requirements.txt']),
+    },
+    install_requires=get_requirements(['requirements/basic.txt']),
     packages=find_packages(exclude=['main.py', 'test']),
 )

@@ -1,0 +1,3 @@
+[submodule "test/data/mobilenetv4_conv_small.e2400_r224_in1k"]
+	path = test/data/mobilenetv4_conv_small.e2400_r224_in1k
+	url = https://huggingface.co/timm/mobilenetv4_conv_small.e2400_r224_in1k
