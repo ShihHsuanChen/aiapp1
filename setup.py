@@ -42,6 +42,7 @@ setup(
         ]
     },
     extras_require={
+        'api': get_requirements(['requirements/api.txt']),
         'test': get_requirements(['requirements/test.txt']),
         'build': get_requirements(['requirements/build.txt'], envsub=True),
     },
