@@ -7,3 +7,5 @@ build
 *.jpg
 !test/data/*.png
 !test/data/*.jpg
+dist
+*.spec
