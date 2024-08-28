@@ -1,0 +1,12 @@
+*.egg-info/*
+**/*.pyc
+build
+dist
+dist_wizard
+*.spec
+*.png
+*.env
+Dockerfile
+.dockerignore
+models/*
+docker-compose.yml

@@ -1,0 +1,14 @@
+version: "2.3"
+
+
+services:
+    aiapp1:
+        container_name: "aiapp1"
+        image: "aiapp1:0.0.1"
+        build:
+            context: .
+        ports:
+            - "8000:8000"
+        environment:
+            INFER_MODEL_NAME: "mobilenetv4_conv_small.e2400_r224_in1k"
+        restart: "unless-stopped"
